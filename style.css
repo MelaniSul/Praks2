@@ -1,0 +1,138 @@
+/* ---Global---*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  margin-bottom: 70px;
+}
+
+/* ---header---*/
+
+header {
+  margin-bottom: 70px;
+}
+
+.logo-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  margin: 7px 0;
+  padding-left: 60px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#searchbox {
+  margin-right: 60px;
+}
+
+.header-image {
+  height: 350px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.8)),
+    url("forest-931706_1280.jpg");
+  background-position: 50% 60%;
+  background-size: cover;
+}
+
+nav {
+  padding: 7px 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul li {
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ac8e68;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #554532;
+}
+
+/* ---front page---*/
+
+.contact-info {
+  display: flex;
+}
+
+.contact-info__left,
+.contact-info__right {
+  width: 50%;
+}
+
+table {
+  margin: 0 auto;
+  line-height: 150%;
+}
+
+.contact-info__left table tr td:first-child {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+}
+
+/*---gallery---*/
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery .image-wrapper {
+  flex-basis: 28%;
+  margin-left: 4%;
+  margin-bottom: 40px;
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/*---log in page---*/
+
+.log-in table tr td:first-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+.log-in table tr td:last-child {
+  padding: 10px;
+}
+
+/* ---footer---*/
+
+footer p {
+  text-align: center;
+}

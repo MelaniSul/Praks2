@@ -4,6 +4,14 @@
       }
   }
 
+  @media only screen and (max-width: 1000px) {
+    .gallery .image-wrapper {
+        flex-basis: 44%;
+        margin-left: 4%;
+        margin-bottom: 40px;
+      }
+}
+
   @media only screen and (max-width: 800px)
   {
       .header-image{
@@ -34,16 +42,27 @@
   }
 
   @media only screen and (max-width: 650px) {
+    /*header*/
     nav ul{
         width: 100%;
     }
 
+    /*front page*/
     iframe{
         height: 380px;
     }
+
+    /*gallery*/
+    .gallery .image-wrapper {
+        flex-basis: 92%;
+        margin-left: 4%;
+        margin-bottom: 40px;
+      }
 }
 
 @media only screen and (max-width: 550px) {
+
+    /*hamburger*/
     .hamburger{
         display: block;
         opacity: 0;
@@ -84,7 +103,22 @@
         transform: rotate(-45deg) translate(5px, -5px);
     }
 
+    /*frontpage*/
+
     .contact-info__right{
         width: 90%;
     }
+
+    /*log-in*/
+
+    table td{
+        display: flex;
+        vertical-align: top;
+    }
+
+    .log-in table tr td:first-child {
+        margin-left: 40px;
+        text-align: center;
+        font-weight: bold;
+      }
 }
